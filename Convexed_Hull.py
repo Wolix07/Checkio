@@ -1,6 +1,6 @@
 import math
 
-def wsp_prostej( p0, p1):
+def wsp_prostej( p0, p1): #wspolczynnik kierunkowy prostej
     print ("p0= ",p0)
     print ("p1= ",p1)
     a = (p1[1] - p0[1]) / (p1[0] - p0[0])
